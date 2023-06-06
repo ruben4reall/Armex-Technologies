@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ruben4reall/Armex-Technologies/">
-    <img href="assets\img\favicon.png" alt="Logo" width="80" height="80">
+    <img href="favicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Amex Technologies</h3>

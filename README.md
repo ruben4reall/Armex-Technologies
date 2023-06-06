@@ -22,10 +22,7 @@
 
 The goal of this project was to learn HTML and CSS and to be able to create a site on a theme that we like or that we are passionate about. 
 
-Here are the characteristics that we must have on the site:
-* -
-* -
-* -
+See the pdf file to see the requirements of the website
 
 And so my theme is a so-called fictitious company that sells services to make money.
 

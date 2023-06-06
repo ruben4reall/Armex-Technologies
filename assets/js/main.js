@@ -75,3 +75,8 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+// AD SENSE 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4136357056340344"
+     crossorigin="anonymous"></script>
+

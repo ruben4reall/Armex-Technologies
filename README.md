@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ruben4reall/Armex-Technologies/">
-    <img href="https://zupimages.net/viewer.php?id=23/23/mno7.png" alt="Logo" width="80" height="80">
+    <img src="https://zupimages.net/viewer.php?id=23/23/mno7.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Amex Technologies</h3>

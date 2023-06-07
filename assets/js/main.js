@@ -75,7 +75,56 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-// AD SENSE 
+// AD
+document.addEventListener('DOMContentLoaded', function() {
+    // Votre code principal ici
+  
+    // Récupérer tous les éléments publicitaires
+    const ads = document.querySelectorAll('.ad');
+    let currentAdIndex = 0;
+  
+    // Fonction pour changer la publicité active
+    function changeAd() {
+      ads[currentAdIndex].classList.remove('active');
+      currentAdIndex = (currentAdIndex + 1) % ads.length;
+      ads[currentAdIndex].classList.add('active');
+    }
+  
+    // Définir la première publicité comme étant active
+    ads[currentAdIndex].classList.add('active');
+  
+    // Déclencher le changement de publicité toutes les 10 secondes
+    setInterval(changeAd, 5000);
+  
+    // Autres fonctions ou code ici
+  });
+  
+  /*=============== QUESTIONS ACCORDION ===============*/
+const accordionItems = document.querySelectorAll('.questions__item')
 
+accordionItems.forEach((item) =>{
+    const accordionHeader = item.querySelector('.questions__header')
 
+    accordionHeader.addEventListener('click', () =>{
+        const openItem = document.querySelector('.accordion-open')
 
+        toggleItem(item)
+
+        if(openItem && openItem!== item){
+            toggleItem(openItem)
+        }
+    })
+})
+
+const toggleItem = (item) =>{
+    const accordionContent = item.querySelector('.questions__content')
+
+    if(item.classList.contains('accordion-open')){
+        accordionContent.removeAttribute('style')
+        item.classList.remove('accordion-open')
+    }else{
+        accordionContent.style.height = accordionContent.scrollHeight + 'px'
+        item.classList.add('accordion-open')
+    }
+
+}

@@ -1,229 +1,274 @@
 <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
 
-        <!--=============== REMIX ICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="../css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="../css/styles.css" />
 
-        <title>Armex Technologies</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">
-                    <i class="ri-ghost-2-line nav__logo-icon"></i> Armex
-                </a>
+    <title>Armex Technologies</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="ri-ghost-2-line nav__logo-icon"></i> Armex
+        </a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="../../index.html" class="nav__link">Acceuil</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">A Propos</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="../html/faqs.html" class="nav__link">FAQs</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Boutique</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="../html/contact.html" class="nav__link active-link">Contact</a>
-                        </li>
-                    </ul>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="../../index.html" class="nav__link">Acceuil</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">A Propos</a>
+            </li>
+            <li class="nav__item">
+              <a href="../html/faqs.html" class="nav__link">FAQs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Boutique</a>
+            </li>
+            <li class="nav__item">
+              <a href="../html/contact.html" class="nav__link active-link"
+                >Contact</a
+              >
+            </li>
+          </ul>
 
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
-                </div>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-                <div class="nav__btns">
-                    <!-- Theme change button -->
-                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-line"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <main class="main">
-
- <!--==================== CONTACT ====================-->
-    <section class="contact section container" id="contact">
-    <div class="contact__container grid">
-        <div class="contact__box">
+    <main class="main">
+      <!--==================== CONTACT ====================-->
+      <section class="contact section container" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__box">
             <h2 class="section__title">
-                Contacter nous <br> maintenant <br> pour plus d'information
+              Contacter nous <br />
+              maintenant <br />
+              pour plus d'information
             </h2>
 
             <div class="contact__data">
-                <div class="contact__information">
-                    <h3 class="contact__subtitle">Appeler notre service clientèle 24/24h</h3>
-                    <span class="contact__description">
-                        <i class="ri-phone-line contact__icon"></i>
-                        +41 21 761 90 87
-                    </span>
-                </div>
+              <div class="contact__information">
+                <h3 class="contact__subtitle">
+                  Appeler notre service clientèle 24/24h
+                </h3>
+                <span class="contact__description">
+                  <i class="ri-phone-line contact__icon"></i>
+                  +41 21 761 90 87
+                </span>
+              </div>
 
-                <div class="contact__information">
-                    <h3 class="contact__subtitle">Ecrivez-nous par mail </h3>
-                    <span class="contact__description">
-                        <i class="ri-mail-line contact__icon"></i>
-                        contact@armex.com
-                    </span>
-                </div>
+              <div class="contact__information">
+                <h3 class="contact__subtitle">Ecrivez-nous par mail</h3>
+                <span class="contact__description">
+                  <i class="ri-mail-line contact__icon"></i>
+                  contact@armex.com
+                </span>
+              </div>
             </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <div class="contact__content">
+                <input type="email" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Email</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="text" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Subject</label>
+              </div>
+
+              <div class="contact__content">
+                <textarea
+                  name="message"
+                  placeholder=" "
+                  class="contact__input"
+                ></textarea>
+                <label for="" class="contact__label">Message</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="password" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Password</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="url" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">URL</label>
+              </div>
+
+              <div class="contact__content">
+                <input type="date" placeholder=" " class="contact__input" />
+                <label for="" class="contact__label">Date</label>
+              </div>
+
+              <div class="contact__content">
+                <label class="contact__label">Choix multiple</label
+                ><br /><br /><br />
+                <div class="contact__options">
+                  <label for="option1" class="contact__option">
+                    <input
+                      type="checkbox"
+                      id="option1"
+                      class="contact__checkbox"
+                    />
+                    Option 1
+                  </label>
+                  <label for="option2" class="contact__option">
+                    <input
+                      type="checkbox"
+                      id="option2"
+                      class="contact__checkbox"
+                    />
+                    Option 2
+                  </label>
+                  <label for="option3" class="contact__option">
+                    <input
+                      type="checkbox"
+                      id="option3"
+                      class="contact__checkbox"
+                    />
+                    Option 3
+                  </label>
+                </div>
+              </div>
+            </div>
+            <br />
+            <button class="button button--flex">
+              Send
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <i class="ri-ghost-2-line footer__logo-icon"></i> Armex
+          </a>
+
+          <div class="footer__subscribe">
+            <a
+              href="mailto:votreadresseemail@example.com"
+              class="button button--flex footer__button"
+            >
+              Nous envoyer un mail
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </a>
+          </div>
         </div>
 
-        <form action="" class="contact__form">
-            <div class="contact__inputs">
-                <div class="contact__content">
-                    <input type="email" placeholder=" " class="contact__input">
-                    <label for="" class="contact__label">Email</label>
-                </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Information</h3>
 
-                <div class="contact__content">
-                    <input type="text" placeholder=" " class="contact__input">
-                    <label for="" class="contact__label">Subject</label>
-                </div>
+          <ul class="footer__data">
+            <a
+              class="footer__information"
+              href="../documents/CGV _ produits en ligne pour les particuliers.pdf"
+              >Condition D'utilisation</a
+            >
+            <a
+              class="footer__information"
+              href="../documents/CELEX_32016R0679_FR_TXT.pdf"
+              >Protections des données
+            </a>
+            <a
+              class="footer__information"
+              href="../documents/CGV _ produits en ligne pour les particuliers.pdf _ produits en ligne pour les particuliers.pdf"
+              >Mentions Légales
+            </a>
+          </ul>
+        </div>
 
-                <div class="contact__content">
-                    <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
-                    <label for="" class="contact__label">Message</label>
-                </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Contact WebMaster</h3>
 
-                <div class="contact__content">
-                    <input type="password" placeholder=" " class="contact__input">
-                    <label for="" class="contact__label">Password</label>
-                </div>
+          <ul class="footer__data">
+            <li class="footer__information">Ruben C.</li>
 
-                <div class="contact__content">
-                    <input type="url" placeholder=" " class="contact__input">
-                    <label for="" class="contact__label">URL</label>
-                </div>
-
-                <div class="contact__content">
-                    <input type="date" placeholder=" " class="contact__input">
-                    <label for="" class="contact__label">Date</label>
-                </div>
-
-                <div class="contact__content">
-                    <label class="contact__label">Choix multiple</label><br><br><br>
-                    <div class="contact__options">
-                        <label for="option1" class="contact__option">
-                            <input type="checkbox" id="option1" class="contact__checkbox">
-                            Option 1
-                        </label>
-                        <label for="option2" class="contact__option">
-                            <input type="checkbox" id="option2" class="contact__checkbox">
-                            Option 2
-                        </label>
-                        <label for="option3" class="contact__option">
-                            <input type="checkbox" id="option3" class="contact__checkbox">
-                            Option 3
-                        </label>
-                    </div>
-                </div>
+            <div class="footer__social">
+              <a
+                href="https://github.com/ruben4reall"
+                class="footer__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/ruben4realll"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rubencatalaoamaro/"
+                class="footer__social-link"
+              >
+                <i class="ri-linkedin-fill"></i>
+              </a>
+              <a href="https://discord.gg/rex5A3ku" class="footer__social-link">
+                <i class="ri-discord-fill"></i>
+              </a>
             </div>
-            <br>
-            <button class="button button--flex">
-                Send 
-                <i class="ri-arrow-right-up-line button__icon"></i>
-            </button>
-        </form>
-    </div>
-</section>
-</main>
+          </ul>
+        </div>
 
+        <div class="footer__content">
+          <h3 class="footer__title">Navigation</h3>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content">
-                    <a href="#" class="footer__logo">
-                        <i class="ri-ghost-2-line footer__logo-icon"></i> Armex
-                    </a>
+          <ul class="footer__data">
+            <a class="footer__information" href="../../index.html">Acceuil</a>
+            <a class="footer__information" href="#">A Propos </a>
+            <a class="footer__information" href="../html/faqs.html">FAQs</a>
+            <a class="footer__information" href="#">Boutique</a>
+            <a class="footer__information" href="../html/contact.html"
+              >Contact</a
+            >
+          </ul>
+        </div>
+      </div>
 
-                   
+      <p class="footer__copy">&#169; Ruben C. Tous Droits Réservé</p>
+    </footer>
 
-                    <div class="footer__subscribe">
-                        
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
 
-                        <a href="mailto:votreadresseemail@example.com" class="button button--flex footer__button">
-                            Nous envoyer un mail
-                            <i class="ri-arrow-right-up-line button__icon"></i>
-                        </a>
-                        
-                    </div>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Information</h3>
-
-                    <ul class="footer__data">
-                        <a class="footer__information" href="../documents/CGV _ produits en ligne pour les particuliers.pdf">Condition D'utilisation</a>
-                        <a class="footer__information" href="../documents/CELEX_32016R0679_FR_TXT.pdf">Protections des données </a>
-                        <a class="footer__information" href="../documents/CGV _ produits en ligne pour les particuliers.pdf _ produits en ligne pour les particuliers.pdf">Mentions Légales </a>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Contact WebMaster</h3>
-
-                    <ul class="footer__data">
-                        <li class="footer__information">Ruben C.</li>
-                        
-                        <div class="footer__social">
-                            <a href="https://github.com/ruben4reall" class="footer__social-link">
-                                <i class="ri-github-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/ruben4realll" class="footer__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/rubencatalaoamaro/" class="footer__social-link">
-                                <i class="ri-linkedin-fill"></i>
-                            </a>
-                            <a href="https://discord.gg/rex5A3ku" class="footer__social-link">
-                                <i class="ri-discord-fill"></i>
-                            </a>
-                        </div>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Navigation</h3>
-
-                    <ul class="footer__data">
-                        <a class="footer__information"  href="../../index.html">Acceuil</a>
-                        <a class="footer__information"  href="#">A Propos </a>
-                        <a class="footer__information"  href="../html/faqs.html">FAQs</a>
-                        <a class="footer__information"  href="#">Boutique</a>
-                        <a class="footer__information"  href="../html/contact.html">Contact</a>
-                    </ul>
-                </div>
-            </div>
-
-            <p class="footer__copy">&#169; Ruben C. Tous Droits Réservé</p>
-        </footer>
-        
-        <!--=============== SCROLL UP ===============-->
-        <a href="#" class="scrollup" id="scroll-up"> 
-            <i class="ri-arrow-up-fill scrollup__icon"></i>
-        </a>
-        
-        <!--=============== MAIN JS ===============-->
-        <script src="../js/main.js"></script>
-    </body>
+    <!--=============== MAIN JS ===============-->
+    <script src="../js/main.js"></script>
+  </body>
 </html>

@@ -77,7 +77,6 @@ themeButton.addEventListener('click', () => {
 
 // AD
 document.addEventListener('DOMContentLoaded', function() {
-    // Votre code principal ici
   
     // Récupérer tous les éléments publicitaires
     const ads = document.querySelectorAll('.ad');
@@ -95,7 +94,34 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Déclencher le changement de publicité toutes les 10 secondes
     setInterval(changeAd, 5000);
-  
-    // Autres fonctions ou code ici
   });
   
+/*=============== QUESTIONS ACCORDION ===============*/
+const accordionItems = document.querySelectorAll('.questions__item')
+
+accordionItems.forEach((item) =>{
+    const accordionHeader = item.querySelector('.questions__header')
+
+    accordionHeader.addEventListener('click', () =>{
+        const openItem = document.querySelector('.accordion-open')
+
+        toggleItem(item)
+
+        if(openItem && openItem!== item){
+            toggleItem(openItem)
+        }
+    })
+})
+
+const toggleItem = (item) =>{
+    const accordionContent = item.querySelector('.questions__content')
+
+    if(item.classList.contains('accordion-open')){
+        accordionContent.removeAttribute('style')
+        item.classList.remove('accordion-open')
+    }else{
+        accordionContent.style.height = accordionContent.scrollHeight + 'px'
+        item.classList.add('accordion-open')
+    }
+
+}

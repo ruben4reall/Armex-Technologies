@@ -17,7 +17,7 @@
     </p>
 </p>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b3a52bbb-3cc5-4715-a6fb-fd3b321c6ec9/deploy-status)](https://app.netlify.com/sites/armextech/deploys)
+
 
 ## 📖 À propos du projet
 
@@ -36,6 +36,7 @@ Le site utilise les technologies suivantes, dont voici les logos :
 ## 🚀 Hébergement
 
 Le site est hébergé gratuitement via Netlify. Si le site n'est plus disponible, il est possible que l'hébergement gratuit ait été interrompu. Veuillez vérifier le statut de déploiement actuel ci-dessus.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b3a52bbb-3cc5-4715-a6fb-fd3b321c6ec9/deploy-status)](https://app.netlify.com/sites/armextech/deploys)
 
 ## 🚀 Pour commencer
 

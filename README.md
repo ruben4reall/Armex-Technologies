@@ -25,7 +25,7 @@ Ce site a été créé dans le cadre du module 293 à l'EPSIC et vise à simuler
 
 ### 🛠️ Construit avec
 
-Le site utilise les technologies suivantes, dont voici les logos :
+Le site utilise les technologies suivantes :
 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>

@@ -49,17 +49,6 @@ Describe your License for your project.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
-<!-- CONTACT -->
-## 📫 Contact
-
-My Instagram [@ruben4reall](https://instagram.com/ruben4reall)
-<br />My Discord [soonrich#0000]
-
-Project Link: [https://github.com/ruben4reall/Armex-Technologies](https://github.com/ruben4reall/Armex-Technologies)
-
-
 <!-- SOURCES -->
 ## 🔗 Sources
 -
